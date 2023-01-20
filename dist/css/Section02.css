@@ -1,0 +1,39 @@
+@media all and (max-width: 767px) {
+  .section-02 {
+    padding: 32px 16px;
+  }
+  .section-02 .c-wrapper .logo-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .section-02 {
+    padding: 32px;
+  }
+  .section-02 .c-wrapper {
+    padding: 0 158.41px;
+  }
+  .section-02 .c-wrapper .logo-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+}
+@media all and (min-width: 1320px) {
+  .section-02 {
+    padding: 40px 70px;
+  }
+  .section-02 .c-wrapper {
+    padding: 0 99.8px;
+  }
+  .section-02 .c-wrapper .logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-02 .c-wrapper .logo-wrapper > a img {
+    width: 150px;
+  }
+}/*# sourceMappingURL=Section02.css.map */

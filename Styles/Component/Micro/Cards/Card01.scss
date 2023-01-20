@@ -1,0 +1,34 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Colour.scss";
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .card-01 {
+  }
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .card-01 {
+  }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .card-01 {
+    .card-01-A {
+    }
+    .card-01-B {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 42px;
+      color: #000000;
+    }
+    .card-01-C {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #532c59;
+    }
+  }
+}

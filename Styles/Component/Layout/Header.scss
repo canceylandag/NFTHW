@@ -1,0 +1,74 @@
+@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .header-01{
+        .hamburger-menu-icon{
+            display: static;
+            position: absolute;
+            left: 0;
+            top: 10px;
+        }
+        .c-wrapper{
+            display: flex;
+            justify-content: center;
+        align-items: center;
+        .c-nav-01{
+            display: none;
+        }
+    }
+    }
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+     .header-01{
+        .hamburger-menu-icon{
+            display: static;
+            position: absolute;
+            left: 0;
+            top: 10px;
+        }
+        .c-wrapper{
+            display: flex;
+            justify-content: center;
+        align-items: center;
+        .c-nav-01{
+            display: none;
+        }
+    }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .header-01{
+        .hamburger-menu-icon{
+            display: none;
+        }
+        .c-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 70px 18px 70px;
+        .c-nav-01{
+            .c-nav-01-A{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                li{
+                    padding: 12px;
+                    &:not(:nth-child(3)){
+                        
+                        margin-right: 8px;
+                    }
+                    
+                }
+            }
+            
+        }}
+
+        
+    }
+}
